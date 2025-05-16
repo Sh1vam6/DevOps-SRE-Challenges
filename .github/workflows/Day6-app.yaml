@@ -26,7 +26,7 @@ jobs:
 
         - name: Build and push Docker image 
           run: |
-            docker build -t ${{ secrets.DOCKER_USERNAME }}/flask-app:latest -f Day6/Dockerfile
+            docker build -t ${{ secrets.DOCKER_USERNAME }}/flask-app:latest -f Day6/Dockerfile Day6
             docker push ${{ secrets.DOCKER_USERNAME }}/flask-app:latest
 
     deploy:
