@@ -58,7 +58,7 @@ jobs:
       - name: Send Email Notification
         uses: dawidd6/action-send-mail@v3
         with:
-          server_address: 'smtp.example.com'
+          server_address: 'smtp.gmail.com'
           server_port: '587'
           username: peakyjohn526@gmail.com
           password: ${{ secrets.EMAIL_PASSWORD }}
