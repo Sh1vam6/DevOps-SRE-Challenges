@@ -1,0 +1,13 @@
+Answer the following questions:
+
+What are the key differences between GitHub Actions and Jenkins?
+Describe the general structure of a GitHub Actions workflow.
+How to manage variables and secrets in GitHub Actions
+
+Challenge Scenario:
+You are required to create a GitHub Actions workflow that:
+
+Builds and pushes a Docker image to Docker Hub.
+Deploys the application on GitHub Runners
+Validates that the application is running correctly.
+Sends an email notification with the deployment status.

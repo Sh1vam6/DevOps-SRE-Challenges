@@ -1,3 +1,5 @@
+# First paste this .github folder in root directory
+
 name: Deploy Flask application
 
 on:
